@@ -8,7 +8,7 @@ DNS Redirector offers Captive portal, Whitelist-only Internet, and Internet filt
 
 The latest version from GitHub is: v7.2.0.18 r10/06/2020 (requires .NET Framework 4.6.1)
 
-You can download it here: https://github.com/JPElectron/DNSRedirOSS/raw/master/dnsredir-download.zip
+You can download it here: https://github.com/JPElectron/DNSRedirOSS/raw/main/dnsredir-download.zip
 
     You MUST unblock this package before extracting
     Right-click on the dnsredir-download.zip you downloaded, select Properties, click the Unblock button
@@ -20,9 +20,9 @@ You can download it here: https://github.com/JPElectron/DNSRedirOSS/raw/master/d
 
 ## Documentation
 
-The latest ReadMe file is here: https://github.com/JPElectron/DNSRedirOSS/raw/master/full-ReadMe.htm 
+The latest ReadMe file is here: https://github.com/JPElectron/DNSRedirOSS/raw/main/full-ReadMe.htm 
 
-The latest FAQ file is here: https://github.com/JPElectron/DNSRedirOSS/raw/master/full-FAQ.htm
+The latest FAQ file is here: https://github.com/JPElectron/DNSRedirOSS/raw/main/full-FAQ.htm
 
  ...to download these, right-click and pick "Save Link As..."
 
