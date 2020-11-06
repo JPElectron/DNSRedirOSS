@@ -25,21 +25,15 @@ The latest ReadMe file is here: https://github.com/JPElectron/DNSRedirOSS/raw/ma
 The latest FAQ file is here: https://github.com/JPElectron/DNSRedirOSS/raw/main/full-FAQ.htm
 
  ...to download these, right-click and pick "Save Link As..."
+ 
+Sample files (referenced in these html documents) and other resources can be found here: https://drive.google.com/drive/folders/1DBP6u8QOJ63ZlKHiPSO7az-QVoQ6VA7c?usp=sharing
 
-Related repositories are:
+
+## Related repositories
 
 https://github.com/JPElectron/DNSRedirOSSUpdater
 
 https://github.com/JPElectron/keywords
-
-
-## License and support
-
-For use in any business/commercial entity, purchasing a license is essentially buying me a lunch.
-
-If you need assistance with installation/configuration, please purchase support time.
-
- ...from here: http://jpelectron.com/purchase/
 
 
 ## Version History
