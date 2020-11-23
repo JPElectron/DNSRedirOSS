@@ -26,7 +26,16 @@ The latest FAQ file is here: https://github.com/JPElectron/DNSRedirOSS/raw/main/
 
  ...to download these, right-click and pick "Save Link As..."
  
-Sample files (referenced in these html documents) and other resources can be found here: https://drive.google.com/drive/folders/1DBP6u8QOJ63ZlKHiPSO7az-QVoQ6VA7c?usp=sharing
+Sample files (referenced in the html documents above) and other resources are here: https://drive.google.com/file/d/1AukoMreXOjjIRBLd7vmRJXsK2b-zWaKc/view?usp=sharing
+
+
+## License
+
+GPL does not allow you to link GPL-licensed components with other proprietary software (unless you publish as GPL too).
+
+GPL does not allow you to modify the GPL code and make the changes proprietary, so you cannot use GPL code in your non-GPL projects.
+
+If you wish to integrate this software into your commercial software package, or you are a corporate entity with more than 10 employees, then you should obtain a per-instance license, or a site-wide license, from http://jpelectron.com/buy
 
 
 ## Related repositories
