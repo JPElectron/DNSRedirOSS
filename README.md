@@ -160,4 +160,4 @@ v2.0.00 r06/2003
 
 v1.x and v0.x(beta) began in Y2K (perhaps much earlier, but I didn't keep great records back then) released to clients and a select few closed beta participants
 
-[END of Readme]
+[End of Line]
