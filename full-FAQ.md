@@ -115,7 +115,7 @@ An error might appear in any of the C:\DNSREDIR\DailyLogs files such as:<br>
 or<br>
 \[Initialize\] DNS Redirector v7.x.x.x could not start ...<br>
 <h4>Resolution</h4>
-If Microsoft's DNS service, found on some internal DNS servers, such as your Active Directory (AD) Domain Controller (DC), is installed see [FAQ 91](#91) .<br>
+If Microsoft's DNS service, found on some internal DNS servers, such as your Active Directory (AD) Domain Controller (DC), is installed see <a href="full-FAQ.md#91">FAQ 91.<br>
 <br>
 Check that the DNS Redirector service (dnsrsvc.exe) is not already running.<br>
 <br>
@@ -129,8 +129,8 @@ required by DNS Redirector. If other software is monopolizing these ports, try c
 Then specify a second system IP address and use it for the ListenOnIP= in dnsredir.ini 
 (it is not necessary, nor advised, to add another NIC: Add multiple IP addresses to the same NIC under the Advanced button in TCP/IP properties)<br>
 <br>
-<a href="full-faq.md#32">FAQ 32</a> Not compatible with proxy server<br>
-<a href="full-faq.md#33">FAQ 33</a> Not compatible with Internet Connection Sharing<br>
+<a href="full-FAQ.md#32">FAQ 32</a> Not compatible with proxy server<br>
+<a href="full-FAQ.md#33">FAQ 33</a> Not compatible with Internet Connection Sharing<br>
 
 <br>
 <br>
@@ -140,11 +140,11 @@ Then specify a second system IP address and use it for the ListenOnIP= in dnsred
 <hr style="border: 1px; height: 1px; background: #AAAAAA;"><br>
 Block all websites and/or software that uses DNS to reach login servers/communicate (such as IM, chat, or email clients).<br>
 <br>
-Allow a list of <a href="full-faq.md#79">domain names</a> you choose.<br>
+Allow a list of <a href="full-FAQ.md#79">domain names</a> you choose.<br>
 <h4>Resolution</h4>
 Create a blocked.txt file and put just a . (period) in it on the first line, this blocks everything.<br>
 <br>
-If you've previously been using <a href="full-faq.md#52">updater.exe</a> you should delete it, and the scheduled task, 
+If you've previously been using <a href="full-FAQ.md#52">updater.exe</a> you should delete it, and the scheduled task, 
 so it doesn't run and replace your blocked.txt file.<br>
 <br>
 Create an allowed.txt file and add domains that clients may visit, one on each line...<br>
@@ -152,7 +152,7 @@ allowed.inside.example.com<br>
 ^(.*\.)?cnn\.com$&nbsp;&nbsp; ...allows browsers to visit http://cnn.com and http://www.cnn.com and http://money.cnn.com<br>
 ^(.*\.)?microsoft\.com$<br>
 ^.*\.msftncsi\.com$<br>
-^(.*\.)?msftconnecttest\.com$&nbsp;&nbsp; ...see <a href="full-faq.md#159">FAQ 159</a><br>
+^(.*\.)?msftconnecttest\.com$&nbsp;&nbsp; ...see <a href="full-FAQ.md#159">FAQ 159</a><br>
 ^.*\.in-addr\.arpa$<br>
 ^update\.nai\.com$&nbsp;&nbsp; ...allows McAfee Virus Scan Enterprise updates via HTTP<br>
 ^ftp\.nai\.com$<br>
@@ -186,8 +186,8 @@ Remember that your internal domain suffix should also be included in your allowe
 All keyword lists need to have at least one non-regex keyword present; at least 1 line not starting with ^<br>
 You can make this keyword up and/or make it specific to your network's domain, for example: allowed.inside.example.com<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
- [FAQ 75](#75) Create 3 tiers of blocking<br>
- [FAQ 159](#159) Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
+<a href="full-FAQ.md#75">FAQ 75</a> Create 3 tiers of blocking<br>
+<a href="full-FAQ.md#159">FAQ 159</a> Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
 
 <br>
 <br>
