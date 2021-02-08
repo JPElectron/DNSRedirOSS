@@ -128,9 +128,9 @@ Use <a target="_blank" href="http://technet.microsoft.com/en-us/sysinternals/bb8
 required by DNS Redirector. If other software is monopolizing these ports, try configuring that software to use a dedicated system IP address. 
 Then specify a second system IP address and use it for the ListenOnIP= in dnsredir.ini 
 (it is not necessary, nor advised, to add another NIC: Add multiple IP addresses to the same NIC under the Advanced button in TCP/IP properties)<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
- [FAQ 32](#32) Not compatible with proxy server<br>
- [FAQ 33](#33) Not compatible with Internet Connection Sharing<br>
+<br>
+<a href="full-faq.md#32">FAQ 32</a> Not compatible with proxy server<br>
+<a href="full-faq.md#33">FAQ 33</a> Not compatible with Internet Connection Sharing<br>
 
 <br>
 <br>
@@ -144,7 +144,7 @@ Allow a list of <a href="full-faq.md#79">domain names</a> you choose.<br>
 <h4>Resolution</h4>
 Create a blocked.txt file and put just a . (period) in it on the first line, this blocks everything.<br>
 <br>
-If you've previously been using <a href="full-faq.htm#52">updater.exe</a> you should delete it, and the scheduled task, 
+If you've previously been using <a href="full-faq.md#52">updater.exe</a> you should delete it, and the scheduled task, 
 so it doesn't run and replace your blocked.txt file.<br>
 <br>
 Create an allowed.txt file and add domains that clients may visit, one on each line...<br>
@@ -152,7 +152,7 @@ allowed.inside.example.com<br>
 ^(.*\.)?cnn\.com$&nbsp;&nbsp; ...allows browsers to visit http://cnn.com and http://www.cnn.com and http://money.cnn.com<br>
 ^(.*\.)?microsoft\.com$<br>
 ^.*\.msftncsi\.com$<br>
-^(.*\.)?msftconnecttest\.com$&nbsp;&nbsp; ...see <a href="full-faq.htm#159">FAQ 159</a><br>
+^(.*\.)?msftconnecttest\.com$&nbsp;&nbsp; ...see <a href="full-faq.md#159">FAQ 159</a><br>
 ^.*\.in-addr\.arpa$<br>
 ^update\.nai\.com$&nbsp;&nbsp; ...allows McAfee Virus Scan Enterprise updates via HTTP<br>
 ^ftp\.nai\.com$<br>
@@ -206,8 +206,8 @@ Add only domain names to this list, see <a href="full-faq.htm#79">FAQ 79</a> for
 <br>
 All keyword lists need to have at least one non-regex keyword present; at least 1 line not starting with ^<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
- [FAQ 101](#101) Client is instantly authorized, but that is not my intention<br>
- [FAQ 51](#51) Everything is allowed, but that is not my intention<br>
+<a href="full-faq.md#101">FAQ 101</a> Client is instantly authorized, but that is not my intention<br>
+<a href="full-faq.md#51">FAQ 51</a> Everything is allowed, but that is not my intention<br>
 
 <br>
 <br>
