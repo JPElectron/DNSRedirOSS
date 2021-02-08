@@ -104,18 +104,18 @@
 <br>
 <br>
 
-<a name="4"><hr style="border: 1px; height: 1px; background: #AAAAAA;"><h3>FAQ 4: ListenOnIP error when starting the software</h3><font size=1>Category: Initial setup</font></a><br>
-<hr style="border: 1px; height: 1px; background: #AAAAAA;"><br>
+<a name="4"><h3>FAQ 4: ListenOnIP error when starting the software</h3><font size=1>Category: Initial setup</font></a><br>
+<hr><br>
 A) Another program or service running on the computer is using the same ports as DNS Redirector<br>
 <br>
 B) The value for ListenOnIP= in dnsredir.ini is not set to a valid system IP address<br>
 <br>
 An error might appear in any of the C:\DNSREDIR\DailyLogs files such as:<br>
-[Initialize] Could not start listening on ...<br>
+\[Initialize\] Could not start listening on ...<br>
 or<br>
-[Initialize] DNS Redirector v7.x.x.x could not start ...<br>
+\[Initialize\] DNS Redirector v7.x.x.x could not start ...<br>
 <h4>Resolution</h4>
-If Microsoft's DNS service, found on some internal DNS servers, such as your Active Directory (AD) Domain Controller (DC), is installed see <a href="full-faq.htm#91">FAQ 91</a>.<br>
+If Microsoft's DNS service, found on some internal DNS servers, such as your Active Directory (AD) Domain Controller (DC), is installed see [FAQ 91](#91) .<br>
 <br>
 Check that the DNS Redirector service (dnsrsvc.exe) is not already running.<br>
 <br>
