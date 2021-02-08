@@ -115,7 +115,7 @@ An error might appear in any of the C:\DNSREDIR\DailyLogs files such as:<br>
 or<br>
 \[Initialize\] DNS Redirector v7.x.x.x could not start ...<br>
 <h4>Resolution</h4>
-If Microsoft's DNS service, found on some internal DNS servers, such as your Active Directory (AD) Domain Controller (DC), is installed see <a href="full-FAQ.md#91">FAQ 91.<br>
+If Microsoft's DNS service, found on some internal DNS servers, such as your Active Directory (AD) Domain Controller (DC), is installed see <a href="full-FAQ.md#91">FAQ 91</a>.<br>
 <br>
 Check that the DNS Redirector service (dnsrsvc.exe) is not already running.<br>
 <br>
@@ -128,7 +128,7 @@ Use <a target="_blank" href="http://technet.microsoft.com/en-us/sysinternals/bb8
 required by DNS Redirector. If other software is monopolizing these ports, try configuring that software to use a dedicated system IP address. 
 Then specify a second system IP address and use it for the ListenOnIP= in dnsredir.ini 
 (it is not necessary, nor advised, to add another NIC: Add multiple IP addresses to the same NIC under the Advanced button in TCP/IP properties)<br>
-<br>
+<br><b>Related articles</b><br>
 <a href="full-FAQ.md#32">FAQ 32</a> Not compatible with proxy server<br>
 <a href="full-FAQ.md#33">FAQ 33</a> Not compatible with Internet Connection Sharing<br>
 
@@ -185,7 +185,7 @@ Remember that your internal domain suffix should also be included in your allowe
 <br>
 All keyword lists need to have at least one non-regex keyword present; at least 1 line not starting with ^<br>
 You can make this keyword up and/or make it specific to your network's domain, for example: allowed.inside.example.com<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-FAQ.md#75">FAQ 75</a> Create 3 tiers of blocking<br>
 <a href="full-FAQ.md#159">FAQ 159</a> Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
 
@@ -202,12 +202,12 @@ The file specified for BlockedKeywordsFile= contains blank lines or spaces betwe
 Check that your blocked.txt file contains keywords on every line, or otherwise a comment (line starting with the ; character) 
 If there are any blank lines or spaces in the file, including any trailing at the end, you will experience this behavior.<br>
 <br>
-Add only domain names to this list, see <a href="full-faq.htm#79">FAQ 79</a> for help identifying domain names.<br>
+Add only domain names to this list, see <a href="full-FAQ.md#79">FAQ 79</a> for help identifying domain names.<br>
 <br>
 All keyword lists need to have at least one non-regex keyword present; at least 1 line not starting with ^<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.md#101">FAQ 101</a> Client is instantly authorized, but that is not my intention<br>
-<a href="full-faq.md#51">FAQ 51</a> Everything is allowed, but that is not my intention<br>
+<br><b>Related articles</b><br>
+<a href="full-FAQ.md#101">FAQ 101</a> Client is instantly authorized, but that is not my intention<br>
+<a href="full-FAQ.md#51">FAQ 51</a> Everything is allowed, but that is not my intention<br>
 
 <br>
 <br>
@@ -221,9 +221,9 @@ The browser may be caching the page.<br>
 <br>
 A DNS lookup for the real website is not done again until the browser is closed and opened.<br>
 <h4>Resolution</h4>
-Your welcome page(s) hosted at the RedirectIP= must contain all the no-cache meta tags as shown in our <a href="http://jpelectron.com/sample/DNSRedir/pages">example pages</a>.<br>
+Your welcome page(s) hosted at the RedirectIP= must contain all the no-cache meta tags as shown in the example pages.<br>
 <br>
-Implement the Cache-Control HTTP Header as described under <a href="full-readme.htm#sec6">Readme: Hosted Pages</a>.<br>
+Implement the Cache-Control HTTP Header as described under <a href="full-ReadMe.md#sec6">Readme: Hosted Pages</a>.<br>
 <br>
 Since all modern browsers maintain their own DNS cache, the last page of your welcome site should include the message:<br>
 "To begin surfing freely please close all browser windows"<br>
@@ -232,9 +232,9 @@ Restarting the browser flushes the cache of the redirected IP and forces the bro
 the user's homepage or site they were trying to visit will then be accessible.<br>
 <br>
 When testing redirection on the same client machine repeatedly, the machine may cache DNS records which leads to confusion/not toggling authorization. 
-See [FAQ 12](#12) to flush the local machine's DNS cache or restart the computer between each test.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
- [FAQ 35](#35) Known incompatible devices<br>
+See <a href="full-FAQ.md#12">FAQ 12</a> to flush the local machine's DNS cache or restart the computer between each test.<br>
+<br><b>Related articles</b><br>
+<a href="full-FAQ.md#35">FAQ 35</a>Known incompatible devices<br>
 
 <br>
 <br>
@@ -283,9 +283,8 @@ Windows XP/2003: <a target="_blank" href="http://support.microsoft.com/kb/318803
 For more information on how DNS works <a target="_blank" href="http://www.microsoft.com/technet/prodtechnol/windows2000serv/plan/w2kdns2.mspx">read here</a>.<br>
 <br>
 Also see, How Internet Explorer uses the cache for DNS host entries: <a target="_blank" href="http://support.microsoft.com/kb/263558">kb263558</a><br>
-<br>
-<hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
- [FAQ 7](#7) Can't visit the real website after being redirected<br>
+<br><b>Related articles</b><br>
+<a href="full-FAQ.md#71">FAQ 71</a> Can't visit the real website after being redirected<br>
 
 <br>
 <br>
@@ -308,11 +307,11 @@ If all content ends up with this error, then either...<br>
 As an example, if BlockedIP=192.168.0.2 in dnsredir.ini then ensure that you can visit http://192.168.0.2 directly in your browser. 
 If you cannot visit the IP address specified then this error is the result of no website running at that IP address, TCP port 80 blocked by a firewall, 
 website not running on TCP port 80, or missing web server configuration such as no default document and/or no custom error documents 
-(as described under <a href="full-readme.htm#sec5">Readme: Hosted Pages</a>)<br>
+(as described under <a href="full-ReadMe.md#sec5">Readme: Hosted Pages</a>)<br>
 <br>
  - Try visiting the site as http:// instead of https://<br>
 Blocked sites are not reachable by either, although the blocked page is only displayed for http://<br>
-This is expected, see <a href="full-faq.htm#145">FAQ 145</a>.<br>
+This is expected, see <a href="full-FAQ.md#145">FAQ 145</a>.<br>
 <br>
  - Disable IPv6 on the client device and/or turn off any IPv6 DHCP server on the network<br>
 Otherwise you will need to assign a valid IPv6 address to the DNS Redirector server, and for ListenOnIP= in dnsredir.ini, 
@@ -320,11 +319,11 @@ and set that IPv6 address as the default DNS server that clients will use.<br>
 <br>
  - Check that you have specified a working DNS server for DNSServerIP=<br>
 As an example, if DNSServerIP=192.168.0.2 in dnsredir.ini then ensure this DNS server works and is reachable using <a target="_blank" href="http://support.microsoft.com/kb/200525">nslookup</a>.<br>
-On corporate networks this is normally the IP of your internal or Active Directory (AD) DNS server, see <a href="full-faq.htm#91">FAQ 91</a>.<br>
+On corporate networks this is normally the IP of your internal or Active Directory (AD) DNS server, see <a href="full-FAQ.md#91">FAQ 91</a>.<br>
 <br>
  - See <a href="http://jpelectron.com/sample/DNSRedir/dnstest">DNS Test Instructions</a> to determine the fastest upstream DNS servers you should use.<br>
 <br>
- - Ensure the DNS Redirector ListenOnIP= is the only DNS server used by client computers, see [FAQ 28](#28) <br>
+ - Ensure the DNS Redirector ListenOnIP= is the only DNS server used by client computers, see <a href="full-FAQ.md#28">FAQ 28</a><br>
  
 <br>
 <br>
@@ -352,9 +351,9 @@ Method 4: Use an alternative firmware on the Linksys device such as <a target="_
 <a target="_blank" href="http://www.dd-wrt.com">DD-WRT</a>.<br>
 <br>
 Method 5: Use a different firewall/router.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
- [FAQ 28](#28) Providing multiple DNS servers to clients<br>
- [FAQ 35](#35) Known incompatible devices<br>
+<br><b>Related articles</b><br>
+<a href="full-FAQ.md#28">FAQ 28</a> Providing multiple DNS servers to clients<br>
+<a href="full-FAQ.md#35">FAQ 35</a> Known incompatible devices<br>
 
 <br>
 <br>
@@ -385,8 +384,8 @@ Windows 2003: <a target="_blank" href="http://support.microsoft.com/kb/323339">k
 Windows XP: <a target="_blank" href="http://support.microsoft.com/kb/315236">kb315236</a><br>
 <br>
 A bridged connection between two network cards, such as Windows 2000/XP's Internet Connection Sharing (or ICS) is not compatible with any version of DNS Redirector.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
- [FAQ 33](#33) Not compatible with Internet Connection Sharing<br>
+<br><b>Related articles</b><br>
+<a href="full-FAQ.md#33">FAQ 33</a> Not compatible with Internet Connection Sharing<br>
 
 <br>
 <br>
@@ -401,8 +400,8 @@ You should specify a static MAC address for the virtual NIC of the virtual machi
 When running multiple instances of DNS Redirector for redundancy you increase your success over single point of failure incidents when the virtual 
 machines exist on separate physical servers. For example, if the one physical server that hosts two virtual machines running DNS Redirector were 
 to fail then DNS resolution would not work.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
- [FAQ 28](#28) Providing multiple DNS servers to clients<br>
+<br><b>Related articles</b><br>
+<a href="full-FAQ.md#28">FAQ 28</a>Providing multiple DNS servers to clients<br>
 
 <br>
 <br>
@@ -422,9 +421,9 @@ server (ideally running on physically different hardware for true redundancy).<b
 - When implemented for captive portal (RedirectIP= setting, as in most HotSpot environments) one server running DNS Redirector <u>must</u> be the 
 only DNS server provided to network clients via DHCP. This is necessary so DNS Redirector can track all clients joining/leaving the network. The only 
 exception is; if a load balancer can direct clients to the same DNS Redirector server every time and only switch servers after one is found down.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#27">FAQ 27</a>&nbsp;&nbsp;Use in a virtual server environment<br>
-<a href="full-faq.htm#24">FAQ 24</a>&nbsp;&nbsp;Unable to specify single DNS server on Linksys hardware<br>
+<br><b>Related articles</b><br>
+<a href="full-FAQ.md#27">FAQ 27</a> Use in a virtual server environment<br>
+<a href="full-FAQ.md#24">FAQ 24</a> Unable to specify single DNS server on Linksys hardware<br>
 
 <br>
 <br>
@@ -442,9 +441,9 @@ See <a href="http://jpelectron.com/sample/DNSRedir/networks">Network Examples</a
 <br>
 DNS Redirector could be implemented to display a message or provide instructions in the browser (via a redirect or catch-all blocked page) 
 to inform users who do not have proxy information setup that proxy settings are required.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#4">FAQ 4</a>&nbsp;&nbsp;ListenOnIP error when starting the software<br>
-<a href="full-faq.htm#35">FAQ 35</a>&nbsp;&nbsp;Known incompatible devices<br>
+<br><b>Related articles</b><br>
+<a href="full-FAQ.md#4">FAQ 4</a> ListenOnIP error when starting the software<br>
+<a href="full-FAQ.md#35">FAQ 35</a> Known incompatible devices<br>
 
 <br>
 <br>
