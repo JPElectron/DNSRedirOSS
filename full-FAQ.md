@@ -1434,7 +1434,7 @@ whoami.akamai.net - when querying against a anycast system (for example when Goo
 this will show the unicast address of the anycast node which forwarded the request to Akamai. 
 The IP address in the answer is that of Google's individual server (which is, ideally, your shortest/fastest route based on location) that is handling your DNS traffic.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#157">FAQ 157</a>&nbsp;&nbsp;Monitor your DNS Redirector server with PRTG<br>
+[FAQ 157](#157) Monitor your DNS Redirector server with PRTG<br>
 
 <br>
 <br>
@@ -1463,7 +1463,7 @@ In IIS, under the blocked site, deny anonymous access from the /login/secure dir
 <br>
 In Explorer, add NTFS "Read" permissions to the \login\secure directory with the user(s) or group(s) allowed to bypass the block.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#76">FAQ 76</a>&nbsp;&nbsp;Using the suggested blocked site in IIS<br>
+[FAQ 76](#76) Using the suggested blocked site in IIS<br>
 
 <br>
 <br>
@@ -1484,8 +1484,8 @@ Add only domain names to this list, see <a href="full-faq.htm#79">FAQ 79</a> for
 <br>
 All keyword lists need to have at least one non-regex keyword present; at least 1 line not starting with ^<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#6">FAQ 6</a>&nbsp;&nbsp;Everything is blocked, but that is not my intention<br>
-<a href="full-faq.htm#51">FAQ 51</a>&nbsp;&nbsp;Everything is allowed, but that is not my intention<br>
+[FAQ 6](#6) Everything is blocked, but that is not my intention<br>
+[FAQ 51](#51) Everything is allowed, but that is not my intention<br>
 
 <br>
 <br>
@@ -1516,7 +1516,7 @@ UDP 53 between the DNS Redirector server and the upstream DNS server (usually yo
 UDP 53 between client computers and the DNS Redirector server<br>
 TCP 80 between client computers and the IIS server (usually the same as the DNS Redirector server)<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#39">FAQ 39</a>&nbsp;&nbsp;Prevent the DNS Redirector server from attack<br>
+[FAQ 39](#39) Prevent the DNS Redirector server from attack<br>
 
 <br>
 <br>
@@ -1569,8 +1569,8 @@ B2) Opt-out of your ISP's "helpfull" DNS response (process varies by ISP, some d
 <br>
 B3) Use another DNS server instead of the free service<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#40">FAQ 40</a>&nbsp;&nbsp;Use with OpenDNS<br>
-<a href="full-faq.htm#64">FAQ 64</a>&nbsp;&nbsp;Further customize OpenDNS<br>
+[FAQ 40](#40) Use with OpenDNS<br>
+[FAQ 64](#64) Further customize OpenDNS<br>
 
 <br>
 <br>
@@ -1626,8 +1626,8 @@ Note: Exclude "www" because many websites still start with www. or "xxx" because
 ...the contents can be pasted into your blocked.txt file, or if using <a href="full-faq.htm#52">updater.exe</a> to your blocked-custom.txt file.<br>
 <br>
 <hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#112">FAQ 112</a>&nbsp;&nbsp;Use regular expressions in AllowedKeywordsFile<br>
-<a href="full-faq.htm#114">FAQ 114</a>&nbsp;&nbsp;Advert block list does not include some ccTLD's<br>
+[FAQ 112](#112) Use regular expressions in AllowedKeywordsFile<br>
+[FAQ 114](#114) Advert block list does not include some ccTLD's<br>
 
 <br>
 <br>
@@ -1666,7 +1666,7 @@ write mem<br>
 If your DNS Redirector server forwards DNS to an Active Directory (AD) Domain Controller (DC) DNS server, 
 the symptoms described here may be related to the Windows Server DNS service, see: <a target="_blank" href="http://support.microsoft.com/kb/832223">kb832223</a><br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#110">FAQ 110</a>&nbsp;&nbsp;Problems with certain routers<br>
+[FAQ 110](#110) Problems with certain routers<br>
 
 <br>
 <br>
@@ -1710,7 +1710,7 @@ this fixes the Windows Update hangup issue, which you'll appreciate later when i
 <br>
 5) Download and install DNS Redirector<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#168">FAQ 168</a>&nbsp;&nbsp;Microsoft .NET optimization high CPU<br>
+[FAQ 168](#168) Microsoft .NET optimization high CPU<br>
 
 <br>
 <br>
@@ -1731,8 +1731,8 @@ cannot resolve out to the Internet.<br>
 Some routers are very lousy when acting as a DNS forwarder, leading to unresolved queries which results in retries which gives the impression Internet is slow or un-responsive. 
 Our suggestion for performance and simplicity is to never allow your firewall/router to act as a DNS forwarder.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#35">FAQ 35</a>&nbsp;&nbsp;Known incompatible devices<br>
-<a href="full-faq.htm#107">FAQ 107</a>&nbsp;&nbsp;Problems with certain firewalls<br>
+[FAQ 35](#35) Known incompatible devices<br>
+[FAQ 107](#107) Problems with certain firewalls<br>
 
 <br>
 <br>
@@ -1822,8 +1822,8 @@ Remember that your internal domain suffix should also be included in your allowe
 ...the contents can be pasted into your allowed.txt file.<br>
 <br>
 <hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#159">FAQ 159</a>&nbsp;&nbsp;Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
-<a href="full-faq.htm#106">FAQ 106</a>&nbsp;&nbsp;Use regular expressions in BlockedKeywordsFile<br>
+[FAQ 159](#159) Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
+[FAQ 106](#106) Use regular expressions in BlockedKeywordsFile<br>
 
 <br>
 <br>
@@ -1888,7 +1888,7 @@ Most effective for network security is to check the 1st list, and implement a cc
 Alternatively, you can check both lists to block ads and bad domains at any TLD (without having to also implement a ccTLD block)<br>
 Or, check only the 2nd list to block domains actively distributing adware, badware, malware, scumware on any TLD<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#106">FAQ 106</a>&nbsp;&nbsp;Use regular expressions in BlockedKeywordsFile<br>
+[FAQ 106](#106) Use regular expressions in BlockedKeywordsFile<br>
 
 <br>
 <br>
@@ -1915,7 +1915,7 @@ Enabling this feature does not require any additional license.<br>
 IE URL Lock software<br>
 - See <a href="http://jpelectron.com/sample/DNSRedir/IEURLLock">screenshot and configuration</a> steps.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#34">FAQ 34</a>&nbsp;&nbsp;Prevent the use of other DNS servers<br>
+[FAQ 34](#34) Prevent the use of other DNS servers<br>
 
 <br>
 <br>
@@ -1938,8 +1938,8 @@ You can automate the time additional sites are allowed or withdrawn by using...<
 Administrative Tools > Task Scheduler<br>
 ...define the program as C:\DNSREDIR\allow-more.bat and the start in or working directory as C:\DNSREDIR<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#128">FAQ 128</a>&nbsp;&nbsp;Time restriction options<br>
-<a href="full-faq.htm#57">FAQ 57</a>&nbsp;&nbsp;Keeping kids on track<br>
+[FAQ 128](#128) Time restriction options<br>
+[FAQ 57](#57) Keeping kids on track<br>
 
 <br>
 <br>
@@ -1955,7 +1955,7 @@ nslookup block.opendns.com<br>
 ...this will return the IP address of the block site, which can be specified for BlockedIP= in dnsredir.ini<br>
 <br>
 <hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#40">FAQ 40</a>&nbsp;&nbsp;Use with OpenDNS<br>
+[FAQ 40](#40) Use with OpenDNS<br>
 
 <br>
 <br>
@@ -2016,7 +2016,7 @@ For other issue see
 and
 <a target="_blank" href="https://support.microsoft.com/en-us/help/910360/how-to-troubleshoot-the-could-not-create-cdo.message-error-message">here</a>.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#76">FAQ 76</a>&nbsp;&nbsp;Using the suggested blocked site in IIS<br>
+[FAQ 76](#76) Using the suggested blocked site in IIS<br>
 
 <br>
 <br>
@@ -2049,7 +2049,7 @@ launch a browser to become authorized.<br>
 eye.fi<br>
 ...this will allow Eye-Fi wireless SD cards to connect and upload photos.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#159">FAQ 159</a>&nbsp;&nbsp;Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
+[FAQ 159](#159) Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
 
 <br>
 <br>
@@ -2105,11 +2105,10 @@ Check for firewall or anti-virus software that may be blocking or rate-limiting 
 <br>
 Make an exclusion in your anti-virus software for the C:\DNSREDIR working directory and all subfolders.<br>
 <br>
-Wait for <a href="full-faq.htm#168">.NET optimization</a> to finish.<br>
+Wait for [FAQ 168](#168) .NET optimization to finish.<br>
 <br>
-Run Windows/Microsoft Update to get all remaining <a href="full-faq.htm#108">.NET updates</a><br>
+Run Windows/Microsoft Update to get all remaining .NET updates<br>
 Restart the computer after installation of .NET Framework/updates, even if the installer did not prompt you to, this finishes updating system files.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
 
 <br>
 <br>
@@ -2130,7 +2129,7 @@ Extract the contents to C:\DNSREDIR replacing all files (make a backup any .ini 
 Executables, DLL's and batch files are then allowed to run.<br>
 Note that some .bat files will still require that you right-click and select "Run as administrator"<br>
 <br>
-Run <a href="full-faq.htm#129">fixNTFS.bat</a> first, then run dnsrsvc-install.bat to install the service.<br>
+Run fixNTFS.bat first, then run dnsrsvc-install.bat to install the service.<br>
 
 <br>
 <br>
@@ -2162,7 +2161,7 @@ may interferer with the performance of your network.<br>
 6) Are you required to retain the MAC address and IP of clients who connect? This may be used (or in some jurisdictions required) by law 
 enforcement to determine abuse or violation of network policies, see <a href="full-faq.htm#62">FAQ 62</a>.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#65">FAQ 65</a>&nbsp;&nbsp;Best practices for speedy DNS resolution<br>
+[FAQ 65](#65) Best practices for speedy DNS resolution<br>
 
 <br>
 <br>
@@ -2195,8 +2194,8 @@ Later on, use another scheduled task to run a batch file to:<br>
 a) copy dnsredir-normal.ini to dnsredir.ini (replacing the existing)<br>
 b) restart the software/service to make the change active<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#116">FAQ 116</a>&nbsp;&nbsp;Allow additional sites based on time of day<br>
-<a href="full-faq.htm#57">FAQ 57</a>&nbsp;&nbsp;Keeping kids on track<br>
+[FAQ 116](#116) Allow additional sites based on time of day<br>
+[FAQ 57](#57) Keeping kids on track<br>
 
 <br>
 <br>
@@ -2230,7 +2229,7 @@ the webpage could display text/picture information about the exhibit, or link to
 DNS Redirector staff would like to thank those who implement this type of system; besides being all-around cool and providing rich information, 
 visitors no longer have to be afraid of germs or lice from using typical rented audio headsets.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#159">FAQ 159</a>&nbsp;&nbsp;Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
+[FAQ 159](#159) Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
 
 <br>
 <br>
@@ -2313,7 +2312,7 @@ would cause everyone to be authorized and web-surf.<br>
 BlockedIP= (Internet filtering function) will work regardless, but if BypassBlockFile= were implemented, 
 the first client to toggle bypassing would cause everyone to web-surf unrestricted.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#37">FAQ 37</a>&nbsp;&nbsp;Use when clients are behind a NAT device<br>
+[FAQ 37](#37) Use when clients are behind a NAT device<br>
 
 <br>
 <br>
@@ -2529,7 +2528,7 @@ Solution: disable it<br>
 
 <a name="153"><hr style="border: 1px; height: 1px; background: #AAAAAA;"><h3>FAQ 153: Using the suggested welcome site in IIS</h3><font size=1>Category: RedirectIP function</font></a><br>
 <hr style="border: 1px; height: 1px; background: #AAAAAA;"><br>
-The sample <a href="http://jpelectron.com/sample/DNSRedir/pages/welcome -suggested.zip">welcome -suggested.zip</a> can be implemented in the following ways...<br>
+The sample "welcome -suggested.zip" can be implemented in the following ways...<br>
 <br>
  - Simply redirect to a publicly hosted website, with or without authorizing the user device to reach the Internet<br>
  - Display your corporate website (or a special public site/page used just for HotSpots) and authorize the user device to reach the Internet<br>
@@ -2560,7 +2559,7 @@ Modify \okdone.asp to display a custom message or other information once the use
 <hr style="border: 1px; height: 1px; background: #AAAAAA;"><br>
 The LCD display can be used to show the number of clients online and authorized.<br>
 <br>
-Download: <a href="http://jpelectron.com/sample/DNSRedir/JoinAction-lcddisplay.zip">JoinAction-lcddisplay.zip</a> v1.6 r10/15/2013<br>
+Download: <a href="https://drive.google.com/drive/folders/1lMxuJpa2z43nnDBOQoBmeGVOdbOvGOcx">JoinAction-lcddisplay.zip</a> v1.6 r10/15/2013<br>
 When connecting the LCD to the server, extract the files to the same folder as your DNS Redirector installation<br>
 When connecting to any other computer, make a new folder and extract the files there<br>
 <br>
@@ -2652,7 +2651,7 @@ Anytime you change your DNS settings you should either...<br>
 
 <a name="157"><hr style="border: 1px; height: 1px; background: #AAAAAA;"><h3>FAQ 157: Monitor your DNS Redirector server with PRTG</h3><font size=1>Category: Everything else</font></a><br>
 <hr style="border: 1px; height: 1px; background: #AAAAAA;"><br>
-You can use <a target="_blank" href="http://www.paessler.com">PRTG</a> to monitor all aspects of your DNS Redirector server, see a <a href="http://jpelectron.com/sample/DNSRedir/PRTG/example-prtg-sensors.png">sample screenshot</a>.<br>
+You can use <a target="_blank" href="http://www.paessler.com">PRTG</a> to monitor all aspects of your DNS Redirector server, see a <a href="https://drive.google.com/drive/folders/1l7y7cSrMlyf0JrLJEKB4MMJXz9n7yRax">example-prtg-sensors.png</a>.<br>
 <br>
 Start by creating a new device...<br>
 - In PRTG, click Add Device<br>
@@ -2707,7 +2706,7 @@ Note: In the examples below you should replace "example.com" with the DNS suffix
 - Scanning Interval:&nbsp; (suggested 5 minutes, meaning if the blocked site were to fail, PRTG in the worst case could take 5 minutes to realize this and notify you)<br>
 <br>
 <input type="checkbox" name="6" value="Done"> 6) Create a "Clients online" sensor...<br>
-- Download <a href="http://jpelectron.com/sample/DNSRedir/PRTG/DNSRedir%20get%20clients%20online.bat">DNSRedir get clients online.bat</a> and place in C:\Program Files\PRTG Network Monitor\Custom Sensors\EXE\<br>
+- Download <a href="https://drive.google.com/drive/folders/1l7y7cSrMlyf0JrLJEKB4MMJXz9n7yRax">DNSRedir get clients online.bat</a> and place in C:\Program Files\PRTG Network Monitor\Custom Sensors\EXE\<br>
 - In PRTG, click Add Sensor, Custom Sensors, EXE/Script<br>
 - Give your sensor a name, such as:&nbsp; Clients online<br>
 - EXE/Script, pick:&nbsp; DNSRedir get clients online.bat<br>
@@ -2717,7 +2716,7 @@ Note: In the examples below you should replace "example.com" with the DNS suffix
 <br>
 <input type="checkbox" name="7" value="Done"> 7) Create a "Clients authorized" sensor...<br>
 &nbsp;&nbsp;&nbsp;&nbsp; <font face="Verdana" style="font-size: 8.5pt">Optional: Only if your DNS Redirector software is used for captive portal, otherwise skip creating this sensor (value will always be 0)</font><br>
-- Download <a href="http://jpelectron.com/sample/DNSRedir/PRTG/DNSRedir%20get%20clients%20authorized.bat">DNSRedir get clients authorized.bat</a> and place in C:\Program Files\PRTG Network Monitor\Custom Sensors\EXE\<br>
+- Download <a href="https://drive.google.com/drive/folders/1l7y7cSrMlyf0JrLJEKB4MMJXz9n7yRax">DNSRedir get clients authorized.bat</a> and place in C:\Program Files\PRTG Network Monitor\Custom Sensors\EXE\<br>
 - In PRTG, click Add Sensor, Custom Sensors, EXE/Script<br>
 - Give your sensor a name, such as:&nbsp; Clients authorized<br>
 - EXE/Script, pick:&nbsp; DNSRedir get clients authorized.bat<br>
@@ -2735,7 +2734,7 @@ Since popular services and websites may use many domains or rely on 3rd party <a
 incorporating an allowed list can avoid disruption to services your company relies on.<br>
 Remember that your internal domain suffix should also be included in your allowed file.<br>
 <br>
-&nbsp;<b>[</b> See a sample allowed file here: <a href="http://jpelectron.com/sample/DNSRedir/example-allowed.txt">example-allowed.txt</a> <b>]</b><br>
+&nbsp;<b>[</b> See a sample allowed file here: <a href="https://drive.google.com/drive/folders/1lMxuJpa2z43nnDBOQoBmeGVOdbOvGOcx">example-allowed.txt</a> <b>]</b><br>
 ...the contents can be pasted into your allowed.txt or always.txt file.<br>
 <br>
 <b>Depending on your network setup/policy you may find the following AllowedKeywordsFile= additions useful...</b><br>
@@ -2747,7 +2746,7 @@ You can make this keyword up and/or make it specific to your network's domain, f
 ^.*epix\.xbox\.com$<br>
 ...when implemented for a free/open hotspot at a hotel, add these to your AllowedKeywordsFile=<br>
 By allowing these domains, Xbox 360's are not restricted by your blocked list.<br>
-Alternatively, to authorize a game console as soon as it connects, see <a href="full-faq.htm#121">FAQ 121</a>.<br>
+Alternatively, to authorize a game console as soon as it connects, see [FAQ 121](#121).<br>
 <br>
 <b>Depending on your network setup/policy you may find the following AllowedKeywordsFile= or AlwaysKeywordsFile= additions useful...</b><br>
 Example: Clients connecting to your "block everything" or "no-Internet" network, but some sites still need to be reached.<br>
@@ -2815,8 +2814,8 @@ In some cases domains can either be forced to resolve to a separate site in IIS,
 or the welcome site can be modified to look for domains in the URL and then redirect to the "Success" message. 
 Care needs to be taken to avoid breaking other device connectivity (for example text, SMS, voicemail notifications).<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#5">FAQ 5</a>&nbsp;&nbsp;Block everything and allow just a few sites<br>
-<a href="full-faq.htm#121">FAQ 121</a>&nbsp;&nbsp;Useful AuthKeywordsFile additions<br>
+[FAQ 5](#5) Block everything and allow just a few sites<br>
+[FAQ 121](#121) Useful AuthKeywordsFile additions<br>
 
 <br>
 <br>
@@ -2848,14 +2847,14 @@ Since server-wide graphical statistics can't provide insight as to which user is
 what you really want to see is the daily log file. This way you can watch in real time, or reverse engineer, a particular IP's (end-user device) 
 DNS activity over the course of the day.<br>
 <br>
-See <a href="http://jpelectron.com/sample/DNSRedir/reporting">sample reporting files</a> which should be <a href="full-faq.htm#125">unblocked</a> and copied to the C:\DNSREDIR\Reporting directory.<br>
+See sample reporting files in the C:\DNSREDIR\Reporting directory.<br>
 <br>
 With DNS Redirector software running inside your network the logfile can provide the private IPs of end-user devices (laptop, desktop PC, phone, tablet, etc.)<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#71">FAQ 71</a>&nbsp;&nbsp;Useful 3rd party links<br>
-<a href="full-faq.htm#111">FAQ 111</a>&nbsp;&nbsp;Using Log Parser with DNS Redirector<br>
-<a href="full-faq.htm#97">FAQ 97</a>&nbsp;&nbsp;Query the number of clients online via DNS<br>
-<a href="full-faq.htm#157">FAQ 157</a>&nbsp;&nbsp;Monitor your DNS Redirector server with PRTG<br>
+[FAQ 71](#71) Useful 3rd party links<br>
+[FAQ 111](#111) Using Log Parser with DNS Redirector<br>
+[FAQ 97](#97) Query the number of clients online via DNS<br>
+[FAQ 157](#157) Monitor your DNS Redirector server with PRTG<br>
 
 <br>
 <br>
@@ -2930,7 +2929,7 @@ to your SSL persistence rules. For Peplink see <a target="_blank" href="http://w
 <br>
 See: Google Help <a target="_blank" href="https://support.google.com/websearch/answer/186669?hl=en">186669 (Option 3)</a> and <a target="_blank" href="https://support.google.com/youtube/answer/6214622?hl=en">6214622</a><br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#167">FAQ 167</a>&nbsp;&nbsp;Force Bing SafeSearch or Classroom<br>
+[FAQ 167](#167) Force Bing SafeSearch or Classroom<br>
 
 <br>
 <br>
@@ -2951,8 +2950,8 @@ Then apply a new policy under each scope that allows or denies a certain MAC add
 <br>
 You could also use this method to assign different DNS Redirector instances to different devices, thereby creating different filtering policies.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#77">FAQ 77</a>&nbsp;&nbsp;Logon script integration<br>
-<a href="full-faq.htm#92">FAQ 92</a>&nbsp;&nbsp;Set different DNS servers via Group Policy<br>
+[FAQ 77](#77) Logon script integration<br>
+[FAQ 92](#92) Set different DNS servers via Group Policy<br>
 
 <br>
 <br>
@@ -3006,8 +3005,8 @@ to reach IPv6 sites (ensure that UDP port 3544 is open outbound for Teredo to fu
 <br>
 All keyword lists need to have at least one non-regex keyword present; at least 1 line not starting with ^<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#51">FAQ 51</a>&nbsp;&nbsp;Everything is allowed, but that is not my intention<br>
-<a href="full-faq.htm#169">FAQ 169</a>&nbsp;&nbsp;Length of the URL for this request error<br>
+[FAQ 51](#51) Everything is allowed, but that is not my intention<br>
+[FAQ 169](#169) Length of the URL for this request error<br>
 
 <br>
 <br>
@@ -3038,7 +3037,7 @@ See: Bing documents <a target="_blank" href="https://blogs.bing.com/search/2009/
 <a target="_blank" href="http://help.bing.microsoft.com/#apex/18/en-US/10003/0">here</a>, and 
 <a target="_blank" href="http://hostme.blob.core.windows.net/images/bex/bic/docs/Bing%20in%20the%20Classroom%20-%20Admin%20Sign%20Up%20Steps%20-%20O365.pdf">here</a><br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#163">FAQ 163</a>&nbsp;&nbsp;Force Google SafeSearch or no SSL<br>
+[FAQ 163](#163) Force Google SafeSearch or no SSL<br>
 
 <br>
 <br>
@@ -3052,7 +3051,7 @@ However, on some systems this may prevent DNS Redirector from running or startin
 <br>
 For more information about these Microsoft executables, including how you can speed up the process, <a target="_blank" href="https://blogs.msdn.microsoft.com/dotnet/2013/08/06/wondering-why-mscorsvw-exe-has-high-cpu-usage-you-can-speed-it-up/">see here</a>.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#108">FAQ 108</a>&nbsp;&nbsp;Microsoft .NET Framework is required<br>
+[FAQ 108](#108) Microsoft .NET Framework is required<br>
 
 <br>
 <br>
@@ -3065,7 +3064,7 @@ In some cases the Blocked site may display an error "The length of the URL for t
 This is because the default IIS setting of 260 is shorter than the URL being blocked.<br>
 Note that the content is blocked regardless, it's only the blocked site does not display properly in the end-user browser.<br>
 <h4>Resolution</h4>
-On your IIS server which hosts the blocked site, download: <a href="http://jpelectron.com/sample/DNSRedir/REG-UrlSegmentMaxLength.zip">REG-UrlSegmentMaxLength.zip</a> then open the .reg file.<br>
+On your IIS server which hosts the blocked site, download: <a href="https://drive.google.com/drive/folders/1lMxuJpa2z43nnDBOQoBmeGVOdbOvGOcx">REG-UrlSegmentMaxLength.zip</a> then open the .reg file.<br>
 <br>
 In the root of the blocked site find the "web.config" file and edit using notepad<br>
 Modify the system.web section to include the two httpRuntime declarations as shown below...<br>
@@ -3086,7 +3085,7 @@ Also see...<br>
 <a target="_blank" href="https://www.saotn.org/the-length-url-request-exceeds-configured-maxurllength-value/">maxUrlLength setting in web.config</a><br>
 <a target="_blank" href="https://docs.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/">IIS request limits</a><br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#166">FAQ 166</a>&nbsp;&nbsp;Not all sites are blocked correctly<br>
+[FAQ 166](#166) Not all sites are blocked correctly<br>
 
 <br>
 <br>
