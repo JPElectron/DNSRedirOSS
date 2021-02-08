@@ -23,8 +23,6 @@ You can download it here: https://github.com/JPElectron/DNSRedirOSS/raw/main/dns
 The latest ReadMe file is here: [full-ReadMe](full-ReadMe.md)
 
 The latest FAQ file is here: [full-FAQ](full-FAQ.md)
-
- ...to download these, right-click and pick "Save Link As..."
  
 Sample files and other resources are here: https://drive.google.com/drive/folders/1lMxuJpa2z43nnDBOQoBmeGVOdbOvGOcx
 
