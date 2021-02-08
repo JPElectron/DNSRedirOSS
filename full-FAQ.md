@@ -3,7 +3,7 @@
 <br>
 
 <font face="Verdana" style="font-size: 10pt"><br>
-&nbsp;<a href="full-faq.md#2">FAQ 2</a>: Licensing DNS Redirector v7<br>
+&nbsp;[FAQ 2](#2): Licensing DNS Redirector v7<br>
 &nbsp;<a href="full-faq.md#4">FAQ 4</a>: ListenOnIP error when starting the software<br>
 &nbsp;<a href="full-faq.md#5">FAQ 5</a>: Block everything and allow just a few sites<br>
 &nbsp;<a href="full-faq.md#6">FAQ 6</a>: Everything is blocked, but that is not my intention<br>
