@@ -1,6 +1,4 @@
 <font face="Verdana" size="2">DNS Redirector - Full FAQ List<br>
-<br>
-<br>
 
 <font face="Verdana" style="font-size: 10pt"><br>
 &nbsp;[FAQ 4](#4) ListenOnIP error when starting the software<br>
