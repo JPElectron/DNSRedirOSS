@@ -1,7 +1,5 @@
 <font face="Verdana" size="2">DNS Redirector - Full Readme<br>
 <br>
-<br>
-
 <font face="Verdana" style="font-size: 8.5pt"><br>
 &nbsp;&nbsp;</font><b>System Requirements</b><br>
 <br>
@@ -378,4 +376,4 @@ or <a href="http://jpelectron.com/sample/DNSRedir/IIS7-DirSecurity.gif">IIS7</a>
 
 <br>
 <br>
-[END]
+[End of Line]
