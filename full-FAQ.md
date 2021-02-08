@@ -460,7 +460,7 @@ There is no way to configure ICS to specify a separate DNS server for users on t
 See <a target="_blank" href="http://support.microsoft.com/kb/250603">kb250603</a><br>
 <h4>Resolution</h4>
 See <a href="http://jpelectron.com/sample/DNSRedir/networks">Network Examples</a> to implement DNS Redirector with a firewall/router as the default gateway.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#4">FAQ 4</a>&nbsp;&nbsp;ListenOnIP error when starting the software<br>
 <a href="full-faq.htm#26">FAQ 26</a>&nbsp;&nbsp;Problems with multiple network cards<br>
 
@@ -571,7 +571,7 @@ or <a target="_blank" href="http://www.dd-wrt.com">DD-WRT</a> and disable <a hre
 - If the browser homepage is set to a local file or a site only available on the cellular network, the user will not see your welcome site (implemented via DNS Redirector) until they browse to an Internet site.<br>
 - If the cellular carrier (or a corporate policy applied to the device) prefers the cellular network over locally available WiFi, the user may not see your welcome site (implemented via DNS Redirector) unless the device is put in airplane mode (where the cellular radio is turned off).<br>
 - For Windows CE devices (Windows Mobile 6 and earlier) after authorization by DNS Redirector users may not be able to browse back to their set home page until the browser is quit/end task (from task manager, or by rebooting the device).  This is because simply "closing" an application (or going back to the main screen) doesn't terminate the application, it is still running in the background and the DNS cache is not flushed until the browser is quit.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#110">FAQ 110</a>&nbsp;&nbsp;Problems with certain routers<br>
 <a href="full-faq.htm#32">FAQ 32</a>&nbsp;&nbsp;Not compatible with proxy server<br>
 <a href="full-faq.htm#24">FAQ 24</a>&nbsp;&nbsp;Unable to specify single DNS server on Linksys hardware<br>
@@ -596,8 +596,8 @@ The machine running DNS Redirector and all network clients <i>cannot</i> be sepa
 <br>
 When implemented with a catch-all * record (such as during a network emergency, closed network, or a network without access to the Internet) this function will will work regardless of network placement.<br>
 <br>
-See <a href="http://jpelectron.com/sample/DNSRedir/networks">Network Examples</a><br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+See Network Examples<br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#142">FAQ 142</a>&nbsp;&nbsp;Valid DNS resolution paths<br>
 
 <br>
@@ -622,7 +622,7 @@ allowing only UDP 53 (for DNS) and TCP 80 (for IIS) inbound to the server, see <
 <br>
 Use TCP/IP filtering (in Windows <a target="_blank" href="http://support.microsoft.com/kb/309798">2000</a> / 
 <a target="_blank" href="http://support.microsoft.com/kb/816792">2003</a>) or Windows Firewall.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#102">FAQ 102</a>&nbsp;&nbsp;Allow DNS Redirector through any firewalls<br>
 
 <br>
@@ -650,7 +650,7 @@ target/destination of the lookup.<br>
 <br>
 Note: After 9 years OpenDNS <a target="_blank" href="http://blog.opendns.com/2014/05/29/no-more-ads/">has finaly conceded</a> that ads and security don't mix, 
 as a result there is no guide page and you will get NXDOMAIN and SERVFAIL responses, therefore some information in this article is no longer applicable.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#64">FAQ 64</a>&nbsp;&nbsp;Further customize OpenDNS<br>
 <a href="full-faq.htm#105">FAQ 105</a>&nbsp;&nbsp;Sites which do not exist are blocked<br>
 <a href="full-faq.htm#117">FAQ 117</a>&nbsp;&nbsp;Use the same block page as OpenDNS<br>
@@ -680,7 +680,7 @@ Other products use a proxy and/or proprietary MAC address rules; which can slow 
 security toolbars, corporate VPN software, or personal firewall software.<br>
 <br>
 Unlike other products that release weekly/monthly patches; DNS Redirector just plain works and at an affordable price.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#70">FAQ 70</a>&nbsp;&nbsp;DNS Redirector software vs. SaaS or cloud offerings<br>
 
 <br>
@@ -698,7 +698,7 @@ Check that your allowed.txt file contains keywords on every line, or otherwise a
 Add only domain names to this list, see <a href="full-faq.htm#79">FAQ 79</a> for help identifying domain names.<br>
 <br>
 All keyword lists need to have at least one non-regex keyword present; at least 1 line not starting with ^<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#6">FAQ 6</a>&nbsp;&nbsp;Everything is blocked, but that is not my intention<br>
 <a href="full-faq.htm#101">FAQ 101</a>&nbsp;&nbsp;Client is instantly authorized, but that is not my intention<br>
 <a href="full-faq.htm#166">FAQ 166</a>&nbsp;&nbsp;Not all sites are blocked correctly<br>
@@ -731,7 +731,7 @@ explaining the user should click here to start a demo of the product and/or come
 A few days later the customer told DNS Redirector staff that "at least 30 people came by" the booth as a result of connecting to 
 "freewireless" and learning about the product. That's 30 individuals who might not have otherwise discovered it. The people at the 
 next booth were also very jealous that he didn't pay the outrageous price for a real Internet connection.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#159">FAQ 159</a>&nbsp;&nbsp;Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
 
 <br>
@@ -752,7 +752,7 @@ An active Internet connection or upstream DNS server(s) specified in DNSServerIP
 <br>
 On the 2nd/private network, you might use a separate instance of DNS Redirector to restrict/filter Internet activity, or ensure that the user 
 cannot reach some sites without first being connected via VPN (thereby using a different, internal, DNS server).<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#54">FAQ 54</a>&nbsp;&nbsp;Use at a trade show<br>
 
 <br>
@@ -768,7 +768,7 @@ laptop/desktop there is nothing for them to tamper with or disable.<br>
 <br>
 For older kids you might allow them more freedom on the Internet but then set Logging=Full so you can check what sites their visiting, 
 or choose to restrict just a handful of known risky sites.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#128">FAQ 128</a>&nbsp;&nbsp;Time restriction options<br>
 <a href="full-faq.htm#116">FAQ 116</a>&nbsp;&nbsp;Allow additional sites based on time of day<br>
 
@@ -792,7 +792,7 @@ and AuthKeywordsFile= settings, restart DNS Redirector, and continue using it on
 <br>
 Another method might be to capture all outbound DNS traffic (UDP port 53) at your perimeter firewall/router using rules or ACLs, and redirect it to 
 the DNS Redirector server IP during the emergency.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#67">FAQ 67</a>&nbsp;&nbsp;Internet down, so show everyone a message<br>
 
 <br>
@@ -853,7 +853,7 @@ The MAC is obtained from the arp command and set in the variable %MAC%<br>
 Retaining the MAC address and IP may be useful to law enforcement, to determine abuse or violation of network policies.<br>
 <br>
 One customer developed a script so after a client joined multiple access points where polled via SNMP, determining which AP the client associated with gave an idea of where they were in the building.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#90">FAQ 90</a>&nbsp;&nbsp;Log only authorizations<br>
 
 <br>
@@ -941,7 +941,7 @@ This works assuming OpenDNS is configured upstream as the real DNS server, as de
 <br>
 Note: After 9 years OpenDNS <a target="_blank" href="http://blog.opendns.com/2014/05/29/no-more-ads/">has finaly conceded</a> that ads and security don't mix, 
 as a result there is no guide page and you will get NXDOMAIN and SERVFAIL responses, therefore some information in this article is no longer applicable.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#40">FAQ 40</a>&nbsp;&nbsp;Use with OpenDNS<br>
 <a href="full-faq.htm#105">FAQ 105</a>&nbsp;&nbsp;Sites which do not exist are blocked<br>
 
@@ -978,7 +978,7 @@ port and plot a graph of utilization over time.<br>
 <br>
 5) If your blocked site is slow, not responding, or stuck in a redirect loop; this can cause some websites to load slower than expected. 
 It is NOT a good idea to run the DNS Redirector blocked site on a workstation OS, use a server OS, see <a target="_blank" href="http://jpelectron.com/sample/WWW and HTML/IIS- OS Version Limits.htm">IIS- OS Version Limits</a><br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#126">FAQ 126</a>&nbsp;&nbsp;Best practices for public networks<br>
 
 <br>
@@ -997,7 +997,7 @@ Method 2) Use a software package such as <a target="_blank" href="http://www.sol
 <a target="_blank" href="http://www.paessler.com">PRTG</a> to email/SMS you that there is a problem then copy in a new .ini and restart DNS Redirector so all users get redirected to a page explaining the Internet is down. 
 This implementation needs to be done such that the server running the monitoring package can notify you AND/OR reach the DNS Redirector server to make the change. 
 In some cases it may be necessary to run two monitoring packages, inside and outside of the network, in order to accomplish this.<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#58">FAQ 58</a>&nbsp;&nbsp;Use during an emergency<br>
 
 <br>
@@ -1020,7 +1020,7 @@ DNS Redirector software offers some unique features the others don't...<br>
  - block advertisements and other sources of spyware/malware<br>
  - display an emergency or network down message (<a href="http://jpelectron.com/sample/DNSRedir/networks/07.htm">no Internet</a>)<br>
 <br>
-<hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#49">FAQ 49</a>&nbsp;&nbsp;What makes DNS Redirector different/better?<br>
 
 <br>
@@ -1071,7 +1071,7 @@ Monitor the DNS Redirector server...<br>
 Additional network security...<br>
 - IE URL Lock see <a href="full-faq.htm#115">FAQ 115</a><br>
 <br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#72">FAQ 72</a>&nbsp;&nbsp;Using 3rd party keywords<br>
 
 <br>
@@ -1088,19 +1088,20 @@ Note that with HOSTS files each site must be individually specified as the fully
 With DNS Redirector the full or partial <a href="full-faq.htm#79">domain name</a>, a keyword, or a <a href="full-faq.htm#106">regex</a> statement can be used.<br>
 <br>
 To make 3rd party files compatible with DNS Redirector...<br>
-no lines can have "127.0.0.1" or some other IP address<br>
-no lines can have "localhost"<br>
-no lines can have characters / \ | : ; ' " ` ~ ! ? @ # $ % ^ & * + = ( ) ...any of these suggest a URL<br>
-no lines can have http:// https:// ftp:// mms:// ...use the domain name part only<br>
-no lines can have .. (two periods or more, in series) not valid and won't get resolved by DNS<br>
-<br>
+
+    no lines can have "127.0.0.1" or some other IP address
+    no lines can have "localhost"
+    no lines can have characters / \ | : ; ' " ` ~ ! ? @ # $ % ^ & * + = ( ) ...any of these suggest a URL
+    no lines can have http:// https:// ftp:// mms:// ...use the domain name part only
+    no lines can have .. (two periods or more, in series) not valid and won't get resolved by DNS
+    
 The <a href="full-faq.htm#79">domain name</a> is the only part of the URL to get resolved by DNS.<br>
 <br>
 Which means "www.example.com" or ".example.com" or "example.com" are all acceptable keywords, with the last being the most thorough for blocking.<br>
 <br>
 When manually merging lists remember that one keyword must appear on each line, the file cannot contain any spaces, nor any blank lines 
 (except for the last line).<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#71">FAQ 71</a>&nbsp;&nbsp;Useful 3rd party links<br>
 <a href="full-faq.htm#79">FAQ 79</a>&nbsp;&nbsp;What part of a URL is the domain name?<br>
 
@@ -1140,7 +1141,7 @@ For setting the workstation to tier 2 based on IP, set AuthClientsFile=authclien
 <br>
 It may be helpful to distinguish between the blocked pages for each tier, we suggest the site at .0.3 says "BLOCKED ALL" whereas 
 the site at .0.2 says "BLOCKED"<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#5">FAQ 5</a>&nbsp;&nbsp;Block everything and allow just a few sites<br>
 
 <br>
@@ -1185,7 +1186,7 @@ To upgrade an existing blocked site to the latest version follow either of the p
  - Copy the values defined in your old global.asa to your new global.asa<br>
  - Inspect all the old files and the new files for any settings/customization you may have done<br>
  - Copy back your graphics files (if you replaced graphics with your own)<br>
-<br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
+<br><b>Related articles</b><br>
 <a href="full-faq.htm#99">FAQ 99</a>&nbsp;&nbsp;Enable AdminWhitelist function of the Blocked site<br>
 <a href="full-faq.htm#100">FAQ 100</a>&nbsp;&nbsp;Enable BypassBlockADi function of the Blocked site<br>
 <a href="full-faq.htm#120">FAQ 120</a>&nbsp;&nbsp;Enable MakeRequest function of the Blocked site<br>
