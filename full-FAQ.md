@@ -129,8 +129,8 @@ required by DNS Redirector. If other software is monopolizing these ports, try c
 Then specify a second system IP address and use it for the ListenOnIP= in dnsredir.ini 
 (it is not necessary, nor advised, to add another NIC: Add multiple IP addresses to the same NIC under the Advanced button in TCP/IP properties)<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#32">FAQ 32</a>&nbsp;&nbsp;Not compatible with proxy server<br>
-<a href="full-faq.htm#33">FAQ 33</a>&nbsp;&nbsp;Not compatible with Internet Connection Sharing<br>
+ [FAQ 32](#32) Not compatible with proxy server<br>
+ [FAQ 33](#33) Not compatible with Internet Connection Sharing<br>
 
 <br>
 <br>
@@ -186,8 +186,8 @@ Remember that your internal domain suffix should also be included in your allowe
 All keyword lists need to have at least one non-regex keyword present; at least 1 line not starting with ^<br>
 You can make this keyword up and/or make it specific to your network's domain, for example: allowed.inside.example.com<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#75">FAQ 75</a>&nbsp;&nbsp;Create 3 tiers of blocking<br>
-<a href="full-faq.htm#159">FAQ 159</a>&nbsp;&nbsp;Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
+ [FAQ 75](#75) Create 3 tiers of blocking<br>
+ [FAQ 159](#159) Useful AllowedKeywordsFile or AlwaysKeywordsFile additions<br>
 
 <br>
 <br>
@@ -206,8 +206,8 @@ Add only domain names to this list, see <a href="full-faq.htm#79">FAQ 79</a> for
 <br>
 All keyword lists need to have at least one non-regex keyword present; at least 1 line not starting with ^<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#101">FAQ 101</a>&nbsp;&nbsp;Client is instantly authorized, but that is not my intention<br>
-<a href="full-faq.htm#51">FAQ 51</a>&nbsp;&nbsp;Everything is allowed, but that is not my intention<br>
+ [FAQ 101](#101) Client is instantly authorized, but that is not my intention<br>
+ [FAQ 51](#51) Everything is allowed, but that is not my intention<br>
 
 <br>
 <br>
@@ -232,9 +232,9 @@ Restarting the browser flushes the cache of the redirected IP and forces the bro
 the user's homepage or site they were trying to visit will then be accessible.<br>
 <br>
 When testing redirection on the same client machine repeatedly, the machine may cache DNS records which leads to confusion/not toggling authorization. 
-See <a href="full-faq.htm#12">FAQ 12</a> to flush the local machine's DNS cache or restart the computer between each test.<br>
+See [FAQ 12](#12) to flush the local machine's DNS cache or restart the computer between each test.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#35">FAQ 35</a>&nbsp;&nbsp;Known incompatible devices<br>
+ [FAQ 35](#35) Known incompatible devices<br>
 
 <br>
 <br>
@@ -285,7 +285,7 @@ For more information on how DNS works <a target="_blank" href="http://www.micros
 Also see, How Internet Explorer uses the cache for DNS host entries: <a target="_blank" href="http://support.microsoft.com/kb/263558">kb263558</a><br>
 <br>
 <hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#7">FAQ 7</a>&nbsp;&nbsp;Can't visit the real website after being redirected<br>
+ [FAQ 7](#7) Can't visit the real website after being redirected<br>
 
 <br>
 <br>
@@ -324,7 +324,7 @@ On corporate networks this is normally the IP of your internal or Active Directo
 <br>
  - See <a href="http://jpelectron.com/sample/DNSRedir/dnstest">DNS Test Instructions</a> to determine the fastest upstream DNS servers you should use.<br>
 <br>
- - Ensure the DNS Redirector ListenOnIP= is the only DNS server used by client computers, see <a href="full-faq.htm#28">FAQ 28</a>.<br>
+ - Ensure the DNS Redirector ListenOnIP= is the only DNS server used by client computers, see [FAQ 28](#28) <br>
  
 <br>
 <br>
@@ -353,8 +353,8 @@ Method 4: Use an alternative firmware on the Linksys device such as <a target="_
 <br>
 Method 5: Use a different firewall/router.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#28">FAQ 28</a>&nbsp;&nbsp;Providing multiple DNS servers to clients<br>
-<a href="full-faq.htm#35">FAQ 35</a>&nbsp;&nbsp;Known incompatible devices<br>
+ [FAQ 28](#28) Providing multiple DNS servers to clients<br>
+ [FAQ 35](#35) Known incompatible devices<br>
 
 <br>
 <br>
@@ -386,7 +386,7 @@ Windows XP: <a target="_blank" href="http://support.microsoft.com/kb/315236">kb3
 <br>
 A bridged connection between two network cards, such as Windows 2000/XP's Internet Connection Sharing (or ICS) is not compatible with any version of DNS Redirector.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#33">FAQ 33</a>&nbsp;&nbsp;Not compatible with Internet Connection Sharing<br>
+ [FAQ 33](#33) Not compatible with Internet Connection Sharing<br>
 
 <br>
 <br>
@@ -402,7 +402,7 @@ When running multiple instances of DNS Redirector for redundancy you increase yo
 machines exist on separate physical servers. For example, if the one physical server that hosts two virtual machines running DNS Redirector were 
 to fail then DNS resolution would not work.<br>
 <br><hr style="border: 1px; height: 1px; background: #AAAAAA;"><br><b>Related articles</b><br>
-<a href="full-faq.htm#28">FAQ 28</a>&nbsp;&nbsp;Providing multiple DNS servers to clients<br>
+ [FAQ 28](#28) Providing multiple DNS servers to clients<br>
 
 <br>
 <br>
