@@ -104,8 +104,8 @@
 <br>
 <br>
 
-<a name="4"><h3>FAQ 4: ListenOnIP error when starting the software</h3><font size=1>Category: Initial setup</font></a><br>
-<hr><br>
+<a name="4"><hr style="border: 1px; height: 1px; background: #AAAAAA;"><h3>FAQ 4: ListenOnIP error when starting the software</h3><font size=1>Category: Initial setup</font></a><br>
+<hr style="border: 1px; height: 1px; background: #AAAAAA;"><br>
 A) Another program or service running on the computer is using the same ports as DNS Redirector<br>
 <br>
 B) The value for ListenOnIP= in dnsredir.ini is not set to a valid system IP address<br>
@@ -140,7 +140,7 @@ Then specify a second system IP address and use it for the ListenOnIP= in dnsred
 <hr style="border: 1px; height: 1px; background: #AAAAAA;"><br>
 Block all websites and/or software that uses DNS to reach login servers/communicate (such as IM, chat, or email clients).<br>
 <br>
-Allow a list of <a href="full-faq.htm#79">domain names</a> you choose.<br>
+Allow a list of <a href="full-faq.md#79">domain names</a> you choose.<br>
 <h4>Resolution</h4>
 Create a blocked.txt file and put just a . (period) in it on the first line, this blocks everything.<br>
 <br>
