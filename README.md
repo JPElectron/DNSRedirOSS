@@ -26,7 +26,7 @@ The latest FAQ file is here: [full-FAQ](full-FAQ.md)
 
  ...to download these, right-click and pick "Save Link As..."
  
-Sample files (referenced in the html documents above) and other resources are here: https://drive.google.com/drive/folders/1lMxuJpa2z43nnDBOQoBmeGVOdbOvGOcx
+Sample files and other resources are here: https://drive.google.com/drive/folders/1lMxuJpa2z43nnDBOQoBmeGVOdbOvGOcx
 
 
 ## License
