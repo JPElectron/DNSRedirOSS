@@ -20,13 +20,13 @@ You can download it here: https://github.com/JPElectron/DNSRedirOSS/raw/main/dns
 
 ## Documentation
 
-The latest ReadMe file is here: https://github.com/JPElectron/DNSRedirOSS/raw/main/full-ReadMe.htm 
+The latest ReadMe file is here: [full-ReadMe](full-ReadMe.md)
 
-The latest FAQ file is here: https://github.com/JPElectron/DNSRedirOSS/raw/main/full-FAQ.htm
+The latest FAQ file is here: [full-FAQ](full-FAQ.md)
 
  ...to download these, right-click and pick "Save Link As..."
  
-Sample files (referenced in the html documents above) and other resources are here: https://drive.google.com/file/d/1AukoMreXOjjIRBLd7vmRJXsK2b-zWaKc/view?usp=sharing
+Sample files (referenced in the html documents above) and other resources are here: https://drive.google.com/drive/folders/1lMxuJpa2z43nnDBOQoBmeGVOdbOvGOcx
 
 
 ## License
