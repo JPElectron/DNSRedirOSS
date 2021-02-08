@@ -1,129 +1,106 @@
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>DNS Redirector - Full FAQ List</title>
-</head>
-
-<body>
-
-<div align="center">
-  <center>
-  <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" id="temp-notice" cellpadding="5" width="620">
-    <tr>
-      <td bgcolor="#FFFF99"><font face="Verdana" style="font-size: 8.5pt">
-      <font color="#800000">On 10/06/2020, after 18+ years, DNS Redirector has become Open Source<br>
-      </font></td>
-    </tr>
-  </table>
-  </center>
-</div>
-<br>
-
 <font face="Verdana" size="2">DNS Redirector - Full FAQ List<br>
 <br>
 <br>
 
 <font face="Verdana" style="font-size: 10pt"><br>
-&nbsp;<a href="full-faq.htm#2">FAQ 2</a>: Licensing DNS Redirector v7<br>
-&nbsp;<a href="full-faq.htm#4">FAQ 4</a>: ListenOnIP error when starting the software<br>
-&nbsp;<a href="full-faq.htm#5">FAQ 5</a>: Block everything and allow just a few sites<br>
-&nbsp;<a href="full-faq.htm#6">FAQ 6</a>: Everything is blocked, but that is not my intention<br>
-&nbsp;<a href="full-faq.htm#7">FAQ 7</a>: Can't visit the real website after being redirected<br>
-&nbsp;<a href="full-faq.htm#12">FAQ 12</a>: How to flush DNS cache<br>
-&nbsp;<a href="full-faq.htm#15">FAQ 15</a>: Sites result in Page cannot be found<br>
-&nbsp;<a href="full-faq.htm#24">FAQ 24</a>: Unable to specify single DNS server on Linksys hardware<br>
-&nbsp;<a href="full-faq.htm#25">FAQ 25</a>: Broken images or links on the welcome page<br>
-&nbsp;<a href="full-faq.htm#26">FAQ 26</a>: Problems with multiple network cards<br>
-&nbsp;<a href="full-faq.htm#27">FAQ 27</a>: Use in a virtual server environment<br>
-&nbsp;<a href="full-faq.htm#28">FAQ 28</a>: Providing multiple DNS servers to clients<br>
-&nbsp;<a href="full-faq.htm#32">FAQ 32</a>: Not compatible with proxy server<br>
-&nbsp;<a href="full-faq.htm#33">FAQ 33</a>: Not compatible with Internet Connection Sharing<br>
-&nbsp;<a href="full-faq.htm#34">FAQ 34</a>: Prevent the use of other DNS servers<br>
-&nbsp;<a href="full-faq.htm#35">FAQ 35</a>: Known incompatible devices<br>
-&nbsp;<a href="full-faq.htm#37">FAQ 37</a>: Use when clients are behind a NAT device<br>
-&nbsp;<a href="full-faq.htm#39">FAQ 39</a>: Prevent the DNS Redirector server from attack<br>
-&nbsp;<a href="full-faq.htm#40">FAQ 40</a>: Use with OpenDNS<br>
-&nbsp;<a href="full-faq.htm#49">FAQ 49</a>: What makes DNS Redirector different/better?<br>
-&nbsp;<a href="full-faq.htm#51">FAQ 51</a>: Everything is allowed, but that is not my intention<br>
-&nbsp;<a href="full-faq.htm#52">FAQ 52</a>: Using updater.exe to automatically get new keywords<br>
-&nbsp;<a href="full-faq.htm#54">FAQ 54</a>: Use at a trade show<br>
-&nbsp;<a href="full-faq.htm#56">FAQ 56</a>: Catch-all page for multiple SSID or VPN hotspots<br>
-&nbsp;<a href="full-faq.htm#57">FAQ 57</a>: Keeping kids on track<br>
-&nbsp;<a href="full-faq.htm#58">FAQ 58</a>: Use during an emergency<br>
-&nbsp;<a href="full-faq.htm#59">FAQ 59</a>: Use for split DNS<br>
-&nbsp;<a href="full-faq.htm#61">FAQ 61</a>: Show the number of clients on LED digits<br>
-&nbsp;<a href="full-faq.htm#62">FAQ 62</a>: Get the IP or MAC of the client who just joined<br>
-&nbsp;<a href="full-faq.htm#63">FAQ 63</a>: Display a message on a Betabrite LED sign<br>
-&nbsp;<a href="full-faq.htm#64">FAQ 64</a>: Further customize OpenDNS<br>
-&nbsp;<a href="full-faq.htm#65">FAQ 65</a>: Best practices for speedy DNS resolution<br>
-&nbsp;<a href="full-faq.htm#67">FAQ 67</a>: Internet down, so show everyone a message<br>
-&nbsp;<a href="full-faq.htm#70">FAQ 70</a>: DNS Redirector software vs. SaaS or cloud offerings<br>
-&nbsp;<a href="full-faq.htm#71">FAQ 71</a>: Useful 3rd party links<br>
-&nbsp;<a href="full-faq.htm#72">FAQ 72</a>: Using 3rd party keywords<br>
-&nbsp;<a href="full-faq.htm#75">FAQ 75</a>: Create 3 tiers of blocking<br>
-&nbsp;<a href="full-faq.htm#76">FAQ 76</a>: Using the suggested blocked site in IIS<br>
-&nbsp;<a href="full-faq.htm#77">FAQ 77</a>: Logon script integration<br>
-&nbsp;<a href="full-faq.htm#79">FAQ 79</a>: What part of a URL is the domain name?<br>
-&nbsp;<a href="full-faq.htm#86">FAQ 86</a>: I found something really bad that wasn't blocked!<br>
-&nbsp;<a href="full-faq.htm#89">FAQ 89</a>: Use to enforce mobile users corporate security<br>
-&nbsp;<a href="full-faq.htm#90">FAQ 90</a>: Log only authorizations<br>
-&nbsp;<a href="full-faq.htm#91">FAQ 91</a>: Set Microsoft DNS service to a single IP<br>
-&nbsp;<a href="full-faq.htm#92">FAQ 92</a>: Set different DNS servers via Group Policy<br>
-&nbsp;<a href="full-faq.htm#97">FAQ 97</a>: Query the number of clients online via DNS<br>
-&nbsp;<a href="full-faq.htm#99">FAQ 99</a>: Enable AdminWhitelist function of the Blocked site<br>
-&nbsp;<a href="full-faq.htm#100">FAQ 100</a>: Enable BypassBlockADi function of the Blocked site<br>
-&nbsp;<a href="full-faq.htm#101">FAQ 101</a>: Client is instantly authorized, but that is not my intention<br>
-&nbsp;<a href="full-faq.htm#102">FAQ 102</a>: Allow DNS Redirector through any firewalls<br>
-&nbsp;<a href="full-faq.htm#103">FAQ 103</a>: Upgrade to DNS Redirector v7<br>
-&nbsp;<a href="full-faq.htm#105">FAQ 105</a>: Sites which do not exist are blocked<br>
-&nbsp;<a href="full-faq.htm#106">FAQ 106</a>: Use regular expressions in BlockedKeywordsFile<br>
-&nbsp;<a href="full-faq.htm#107">FAQ 107</a>: Problems with certain firewalls<br>
-&nbsp;<a href="full-faq.htm#108">FAQ 108</a>: Microsoft .NET Framework is required<br>
-&nbsp;<a href="full-faq.htm#110">FAQ 110</a>: Problems with certain routers<br>
-&nbsp;<a href="full-faq.htm#111">FAQ 111</a>: Using Log Parser with DNS Redirector<br>
-&nbsp;<a href="full-faq.htm#112">FAQ 112</a>: Use regular expressions in AllowedKeywordsFile<br>
-&nbsp;<a href="full-faq.htm#113">FAQ 113</a>: AP configuration in public wireless networks<br>
-&nbsp;<a href="full-faq.htm#114">FAQ 114</a>: Advert block list does not include some ccTLD's<br>
-&nbsp;<a href="full-faq.htm#115">FAQ 115</a>: Block sites from being accessed by IP address<br>
-&nbsp;<a href="full-faq.htm#116">FAQ 116</a>: Allow additional sites based on time of day<br>
-&nbsp;<a href="full-faq.htm#117">FAQ 117</a>: Use the same block page as OpenDNS<br>
-&nbsp;<a href="full-faq.htm#118">FAQ 118</a>: Provide alternate pages for phone/mobile device browsers<br>
-&nbsp;<a href="full-faq.htm#120">FAQ 120</a>: Enable MakeRequest function of the Blocked site<br>
-&nbsp;<a href="full-faq.htm#121">FAQ 121</a>: Useful AuthKeywordsFile additions<br>
-&nbsp;<a href="full-faq.htm#123">FAQ 123</a>: How to configure the SWMonDNSR Service<br>
-&nbsp;<a href="full-faq.htm#124">FAQ 124</a>: Software stops unexpectedly<br>
-&nbsp;<a href="full-faq.htm#125">FAQ 125</a>: Service will not install, or batch files will not run<br>
-&nbsp;<a href="full-faq.htm#126">FAQ 126</a>: Best practices for public networks<br>
-&nbsp;<a href="full-faq.htm#128">FAQ 128</a>: Time restriction options<br>
-&nbsp;<a href="full-faq.htm#129">FAQ 129</a>: NTFS permissions required<br>
-&nbsp;<a href="full-faq.htm#137">FAQ 137</a>: Use for self-guided tours<br>
-&nbsp;<a href="full-faq.htm#138">FAQ 138</a>: Non-payment notice<br>
-&nbsp;<a href="full-faq.htm#139">FAQ 139</a>: What to name your SSID<br>
-&nbsp;<a href="full-faq.htm#142">FAQ 142</a>: Valid DNS resolution paths<br>
-&nbsp;<a href="full-faq.htm#143">FAQ 143</a>: ClientTimeout setting explained<br>
-&nbsp;<a href="full-faq.htm#145">FAQ 145</a>: HTTPS website compatibility<br>
-&nbsp;<a href="full-faq.htm#147">FAQ 147</a>: Use with Remote Desktop Services (Terminal Services)<br>
-&nbsp;<a href="full-faq.htm#148">FAQ 148</a>: Quickly change your network preferences<br>
-&nbsp;<a href="full-faq.htm#149">FAQ 149</a>: Device Self-Registration<br>
-&nbsp;<a href="full-faq.htm#150">FAQ 150</a>: How to backup your DNS Redirector server<br>
-&nbsp;<a href="full-faq.htm#152">FAQ 152</a>: Problems with Server 2012 or 2016<br>
-&nbsp;<a href="full-faq.htm#153">FAQ 153</a>: Using the suggested welcome site in IIS<br>
-&nbsp;<a href="full-faq.htm#154">FAQ 154</a>: Show the number of clients on a LCD display<br>
-&nbsp;<a href="full-faq.htm#156">FAQ 156</a>: Change your DNS to obtain automatically<br>
-&nbsp;<a href="full-faq.htm#157">FAQ 157</a>: Monitor your DNS Redirector server with PRTG<br>
-&nbsp;<a href="full-faq.htm#159">FAQ 159</a>: Useful AllowedKeywordsFile additions<br>
-&nbsp;<a href="full-faq.htm#160">FAQ 160</a>: Why DNS Redirector doesn't produce graphical statistics<br>
-&nbsp;<a href="full-faq.htm#161">FAQ 161</a>: Dynamic DNS block list no longer includes URL redirect services<br>
-&nbsp;<a href="full-faq.htm#162">FAQ 162</a>: Special considerations for Apple devices<br>
-&nbsp;<a href="full-faq.htm#163">FAQ 163</a>: Force Google SafeSearch or no SSL<br>
-&nbsp;<a href="full-faq.htm#164">FAQ 164</a>: Set different DNS servers via DHCP MAC filtering<br>
-&nbsp;<a href="full-faq.htm#165">FAQ 165</a>: Use DHCP option 15 to set a DNS suffix<br>
-&nbsp;<a href="full-faq.htm#166">FAQ 166</a>: Not all sites are blocked correctly<br>
-&nbsp;<a href="full-faq.htm#167">FAQ 167</a>: Force Bing SafeSearch or Classroom<br>
-&nbsp;<a href="full-faq.htm#168">FAQ 168</a>: Microsoft .NET optimization high CPU<br>
-&nbsp;<a href="full-faq.htm#169">FAQ 169</a>: Length of the URL for this request error<br>
+&nbsp;<a href="full-faq.md#2">FAQ 2</a>: Licensing DNS Redirector v7<br>
+&nbsp;<a href="full-faq.md#4">FAQ 4</a>: ListenOnIP error when starting the software<br>
+&nbsp;<a href="full-faq.md#5">FAQ 5</a>: Block everything and allow just a few sites<br>
+&nbsp;<a href="full-faq.md#6">FAQ 6</a>: Everything is blocked, but that is not my intention<br>
+&nbsp;<a href="full-faq.md#7">FAQ 7</a>: Can't visit the real website after being redirected<br>
+&nbsp;<a href="full-faq.md#12">FAQ 12</a>: How to flush DNS cache<br>
+&nbsp;<a href="full-faq.md#15">FAQ 15</a>: Sites result in Page cannot be found<br>
+&nbsp;<a href="full-faq.md#24">FAQ 24</a>: Unable to specify single DNS server on Linksys hardware<br>
+&nbsp;<a href="full-faq.md#25">FAQ 25</a>: Broken images or links on the welcome page<br>
+&nbsp;<a href="full-faq.md#26">FAQ 26</a>: Problems with multiple network cards<br>
+&nbsp;<a href="full-faq.md#27">FAQ 27</a>: Use in a virtual server environment<br>
+&nbsp;<a href="full-faq.md#28">FAQ 28</a>: Providing multiple DNS servers to clients<br>
+&nbsp;<a href="full-faq.md#32">FAQ 32</a>: Not compatible with proxy server<br>
+&nbsp;<a href="full-faq.md#33">FAQ 33</a>: Not compatible with Internet Connection Sharing<br>
+&nbsp;<a href="full-faq.md#34">FAQ 34</a>: Prevent the use of other DNS servers<br>
+&nbsp;<a href="full-faq.md#35">FAQ 35</a>: Known incompatible devices<br>
+&nbsp;<a href="full-faq.md#37">FAQ 37</a>: Use when clients are behind a NAT device<br>
+&nbsp;<a href="full-faq.md#39">FAQ 39</a>: Prevent the DNS Redirector server from attack<br>
+&nbsp;<a href="full-faq.md#40">FAQ 40</a>: Use with OpenDNS<br>
+&nbsp;<a href="full-faq.md#49">FAQ 49</a>: What makes DNS Redirector different/better?<br>
+&nbsp;<a href="full-faq.md#51">FAQ 51</a>: Everything is allowed, but that is not my intention<br>
+&nbsp;<a href="full-faq.md#52">FAQ 52</a>: Using updater.exe to automatically get new keywords<br>
+&nbsp;<a href="full-faq.md#54">FAQ 54</a>: Use at a trade show<br>
+&nbsp;<a href="full-faq.md#56">FAQ 56</a>: Catch-all page for multiple SSID or VPN hotspots<br>
+&nbsp;<a href="full-faq.md#57">FAQ 57</a>: Keeping kids on track<br>
+&nbsp;<a href="full-faq.md#58">FAQ 58</a>: Use during an emergency<br>
+&nbsp;<a href="full-faq.md#59">FAQ 59</a>: Use for split DNS<br>
+&nbsp;<a href="full-faq.md#61">FAQ 61</a>: Show the number of clients on LED digits<br>
+&nbsp;<a href="full-faq.md#62">FAQ 62</a>: Get the IP or MAC of the client who just joined<br>
+&nbsp;<a href="full-faq.md#63">FAQ 63</a>: Display a message on a Betabrite LED sign<br>
+&nbsp;<a href="full-faq.md#64">FAQ 64</a>: Further customize OpenDNS<br>
+&nbsp;<a href="full-faq.md#65">FAQ 65</a>: Best practices for speedy DNS resolution<br>
+&nbsp;<a href="full-faq.md#67">FAQ 67</a>: Internet down, so show everyone a message<br>
+&nbsp;<a href="full-faq.md#70">FAQ 70</a>: DNS Redirector software vs. SaaS or cloud offerings<br>
+&nbsp;<a href="full-faq.md#71">FAQ 71</a>: Useful 3rd party links<br>
+&nbsp;<a href="full-faq.md#72">FAQ 72</a>: Using 3rd party keywords<br>
+&nbsp;<a href="full-faq.md#75">FAQ 75</a>: Create 3 tiers of blocking<br>
+&nbsp;<a href="full-faq.md#76">FAQ 76</a>: Using the suggested blocked site in IIS<br>
+&nbsp;<a href="full-faq.md#77">FAQ 77</a>: Logon script integration<br>
+&nbsp;<a href="full-faq.md#79">FAQ 79</a>: What part of a URL is the domain name?<br>
+&nbsp;<a href="full-faq.md#86">FAQ 86</a>: I found something really bad that wasn't blocked!<br>
+&nbsp;<a href="full-faq.md#89">FAQ 89</a>: Use to enforce mobile users corporate security<br>
+&nbsp;<a href="full-faq.md#90">FAQ 90</a>: Log only authorizations<br>
+&nbsp;<a href="full-faq.md#91">FAQ 91</a>: Set Microsoft DNS service to a single IP<br>
+&nbsp;<a href="full-faq.md#92">FAQ 92</a>: Set different DNS servers via Group Policy<br>
+&nbsp;<a href="full-faq.md#97">FAQ 97</a>: Query the number of clients online via DNS<br>
+&nbsp;<a href="full-faq.md#99">FAQ 99</a>: Enable AdminWhitelist function of the Blocked site<br>
+&nbsp;<a href="full-faq.md#100">FAQ 100</a>: Enable BypassBlockADi function of the Blocked site<br>
+&nbsp;<a href="full-faq.md#101">FAQ 101</a>: Client is instantly authorized, but that is not my intention<br>
+&nbsp;<a href="full-faq.md#102">FAQ 102</a>: Allow DNS Redirector through any firewalls<br>
+&nbsp;<a href="full-faq.md#103">FAQ 103</a>: Upgrade to DNS Redirector v7<br>
+&nbsp;<a href="full-faq.md#105">FAQ 105</a>: Sites which do not exist are blocked<br>
+&nbsp;<a href="full-faq.md#106">FAQ 106</a>: Use regular expressions in BlockedKeywordsFile<br>
+&nbsp;<a href="full-faq.md#107">FAQ 107</a>: Problems with certain firewalls<br>
+&nbsp;<a href="full-faq.md#108">FAQ 108</a>: Microsoft .NET Framework is required<br>
+&nbsp;<a href="full-faq.md#110">FAQ 110</a>: Problems with certain routers<br>
+&nbsp;<a href="full-faq.md#111">FAQ 111</a>: Using Log Parser with DNS Redirector<br>
+&nbsp;<a href="full-faq.md#112">FAQ 112</a>: Use regular expressions in AllowedKeywordsFile<br>
+&nbsp;<a href="full-faq.md#113">FAQ 113</a>: AP configuration in public wireless networks<br>
+&nbsp;<a href="full-faq.md#114">FAQ 114</a>: Advert block list does not include some ccTLD's<br>
+&nbsp;<a href="full-faq.md#115">FAQ 115</a>: Block sites from being accessed by IP address<br>
+&nbsp;<a href="full-faq.md#116">FAQ 116</a>: Allow additional sites based on time of day<br>
+&nbsp;<a href="full-faq.md#117">FAQ 117</a>: Use the same block page as OpenDNS<br>
+&nbsp;<a href="full-faq.md#118">FAQ 118</a>: Provide alternate pages for phone/mobile device browsers<br>
+&nbsp;<a href="full-faq.md#120">FAQ 120</a>: Enable MakeRequest function of the Blocked site<br>
+&nbsp;<a href="full-faq.md#121">FAQ 121</a>: Useful AuthKeywordsFile additions<br>
+&nbsp;<a href="full-faq.md#123">FAQ 123</a>: How to configure the SWMonDNSR Service<br>
+&nbsp;<a href="full-faq.md#124">FAQ 124</a>: Software stops unexpectedly<br>
+&nbsp;<a href="full-faq.md#125">FAQ 125</a>: Service will not install, or batch files will not run<br>
+&nbsp;<a href="full-faq.md#126">FAQ 126</a>: Best practices for public networks<br>
+&nbsp;<a href="full-faq.md#128">FAQ 128</a>: Time restriction options<br>
+&nbsp;<a href="full-faq.md#129">FAQ 129</a>: NTFS permissions required<br>
+&nbsp;<a href="full-faq.md#137">FAQ 137</a>: Use for self-guided tours<br>
+&nbsp;<a href="full-faq.md#138">FAQ 138</a>: Non-payment notice<br>
+&nbsp;<a href="full-faq.md#139">FAQ 139</a>: What to name your SSID<br>
+&nbsp;<a href="full-faq.md#142">FAQ 142</a>: Valid DNS resolution paths<br>
+&nbsp;<a href="full-faq.md#143">FAQ 143</a>: ClientTimeout setting explained<br>
+&nbsp;<a href="full-faq.md#145">FAQ 145</a>: HTTPS website compatibility<br>
+&nbsp;<a href="full-faq.md#147">FAQ 147</a>: Use with Remote Desktop Services (Terminal Services)<br>
+&nbsp;<a href="full-faq.md#148">FAQ 148</a>: Quickly change your network preferences<br>
+&nbsp;<a href="full-faq.md#149">FAQ 149</a>: Device Self-Registration<br>
+&nbsp;<a href="full-faq.md#150">FAQ 150</a>: How to backup your DNS Redirector server<br>
+&nbsp;<a href="full-faq.md#152">FAQ 152</a>: Problems with Server 2012 or 2016<br>
+&nbsp;<a href="full-faq.md#153">FAQ 153</a>: Using the suggested welcome site in IIS<br>
+&nbsp;<a href="full-faq.md#154">FAQ 154</a>: Show the number of clients on a LCD display<br>
+&nbsp;<a href="full-faq.md#156">FAQ 156</a>: Change your DNS to obtain automatically<br>
+&nbsp;<a href="full-faq.md#157">FAQ 157</a>: Monitor your DNS Redirector server with PRTG<br>
+&nbsp;<a href="full-faq.md#159">FAQ 159</a>: Useful AllowedKeywordsFile additions<br>
+&nbsp;<a href="full-faq.md#160">FAQ 160</a>: Why DNS Redirector doesn't produce graphical statistics<br>
+&nbsp;<a href="full-faq.md#161">FAQ 161</a>: Dynamic DNS block list no longer includes URL redirect services<br>
+&nbsp;<a href="full-faq.md#162">FAQ 162</a>: Special considerations for Apple devices<br>
+&nbsp;<a href="full-faq.md#163">FAQ 163</a>: Force Google SafeSearch or no SSL<br>
+&nbsp;<a href="full-faq.md#164">FAQ 164</a>: Set different DNS servers via DHCP MAC filtering<br>
+&nbsp;<a href="full-faq.md#165">FAQ 165</a>: Use DHCP option 15 to set a DNS suffix<br>
+&nbsp;<a href="full-faq.md#166">FAQ 166</a>: Not all sites are blocked correctly<br>
+&nbsp;<a href="full-faq.md#167">FAQ 167</a>: Force Bing SafeSearch or Classroom<br>
+&nbsp;<a href="full-faq.md#168">FAQ 168</a>: Microsoft .NET optimization high CPU<br>
+&nbsp;<a href="full-faq.md#169">FAQ 169</a>: Length of the URL for this request error<br>
 &nbsp;<br>
 
 <br>
