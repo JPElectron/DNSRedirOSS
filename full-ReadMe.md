@@ -1,26 +1,3 @@
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>DNS Redirector - Full Readme</title>
-</head>
-
-<body>
-
-<div align="center">
-  <center>
-  <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" id="temp-notice" cellpadding="5" width="620">
-    <tr>
-      <td bgcolor="#FFFF99"><font face="Verdana" style="font-size: 8.5pt">
-      <font color="#800000">On 10/06/2020, after 18+ years, DNS Redirector has become Open Source<br>
-      </font></td>
-    </tr>
-  </table>
-  </center>
-</div>
-<br>
-
 <font face="Verdana" size="2">DNS Redirector - Full Readme<br>
 <br>
 <br>
@@ -402,6 +379,3 @@ or <a href="http://jpelectron.com/sample/DNSRedir/IIS7-DirSecurity.gif">IIS7</a>
 <br>
 <br>
 [END]
-
-</body>
-</html>
