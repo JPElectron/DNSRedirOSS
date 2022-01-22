@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DNSRedirector", "DNSRedirector\DNSRedirector.vbproj", "{D65501CB-9FB1-44A0-BB17-EDE335C0B648}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DNSRedirectorLibrary", "..\DNSRedirectorLibrary\DNSRedirectorLibrary.vbproj", "{E7B92E50-2028-4D39-8E09-B8E03A40872B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DNSRedirectorTester", "..\DNSRedirectorTester\DNSRedirectorTester.vbproj", "{75636EFC-BB13-4942-9D3C-A6C7DE49BF06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D65501CB-9FB1-44A0-BB17-EDE335C0B648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65501CB-9FB1-44A0-BB17-EDE335C0B648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65501CB-9FB1-44A0-BB17-EDE335C0B648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65501CB-9FB1-44A0-BB17-EDE335C0B648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B92E50-2028-4D39-8E09-B8E03A40872B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B92E50-2028-4D39-8E09-B8E03A40872B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B92E50-2028-4D39-8E09-B8E03A40872B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B92E50-2028-4D39-8E09-B8E03A40872B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75636EFC-BB13-4942-9D3C-A6C7DE49BF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75636EFC-BB13-4942-9D3C-A6C7DE49BF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75636EFC-BB13-4942-9D3C-A6C7DE49BF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75636EFC-BB13-4942-9D3C-A6C7DE49BF06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
