@@ -2279,7 +2279,7 @@ To ensure compatibility with different client devices the SSID should not be mor
 Examples of different DNS resolution paths are shown here. Functional limitations exist when clients are separated from 
 the DNS Redirector server by other DNS servers or NAT firewall/routers, details are explained at the end of this article.<br>
 <br>
-<img border="0" src="/sample/DNS-ResolutionPaths.gif" align="absmiddle" width="755" height="865"><br>
+<img border="0" src="https://raw.githubusercontent.com/JPElectron/DNSRedirOSS/main/DNS-ResolutionPaths.gif" align="absmiddle" width="755" height="865"><br>
 <br>
 1:&nbsp;&nbsp; Acceptable, but consider that the DNS Redirector server and clients are not protected by any firewall to the Internet.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This also limits your ability to enforce DNS Redirector as the only DNS server, as described in <a href="full-FAQ.md#34">FAQ 34</a>.<br>
