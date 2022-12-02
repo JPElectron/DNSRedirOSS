@@ -29,7 +29,7 @@ Sample files and other resources are here: https://drive.google.com/drive/folder
 
 ## The Future
 
-While DNS Redirector is still needed for a successful captive portal implementation, be aware of the new method to impose a captive portal by using DHCP option 114, for devices that support it.  More info here: https://tools.ietf.org/id/draft-ietf-capport-rfc7710bis-08.html and here: https://developer.android.com/about/versions/11/features/captive-portal
+While DNS Redirector is still relevant for a successful captive portal implementation, there is a new method to impose a captive portal by using DHCP option 114, for devices that support it.  More info here: https://datatracker.ietf.org/doc/html/rfc8910 and here: https://developer.android.com/about/versions/11/features/captive-portal
 
 
 ## License
